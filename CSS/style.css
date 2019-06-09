@@ -41,30 +41,6 @@ hr {
     height: .9px;
 }
 
-#experienceText {
-    margin-left: 15%;
-    margin-right: 15%;
-    font-size: 24px;
-    height: 100px;
-    text-align: center;
-}
-
-#bubs {
-    width: 400px;
-    height: 250px;
-    opacity: .8;
-}
-
-.experienceItem {
-    width: 65%;
-    margin: auto;
-}
-
-.experienceItemTitle {
-    margin-left: -10%;
-    background-color: #DDDDDD;
-}
-
 #aboutMeText {
     margin-left: 15%;
     margin-right: 15%;
@@ -182,11 +158,10 @@ hr {
 }
 
 #para3 {
-    /* height: 750px; */
     height: 100%;
     background-color: #DDDDDD;
     min-height: 100%;
-    padding-bottom: 2%;
+    padding-bottom: 5%;
 }
 
 #para4 {
@@ -296,10 +271,6 @@ hr {
     justify-content: center;
 }
 
-.listPic {
-    /* margin-bottom: 25px; */ 
-}
-
 #list {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -365,11 +336,46 @@ hr {
 }
 
 .experienceBox {
-    height: 400px;
-    background-color: #DDDDDD;
-    width: 30%;
+    display: flex;
+    margin: 0;
+    flex-direction: row;
     border-radius: 4px;
-    padding: 2%;
+    padding: 5%;
+    padding-top: 0;
+}
+
+.experienceText {
+    margin-top: 5%;
+    background-color: white;
+    height: 50%;
+    width: 100%;
+    border-radius: 4px;
+    margin-right: -4%;
+    padding: 3%;
+    z-index: 3;
+}
+
+#darkModeExperience {
+    margin: 0;
+}
+
+#bubs {
+    width: 500px;
+    height: 300px;
+}
+
+.experienceItem {
+    width: 65%;
+    margin: auto;
+}
+
+.TitleNoMargin {
+    margin: 0;
+    color: black;
+}
+
+.experienceItemTitle:hover {
+    cursor: pointer;
 }
 
 @media only screen and (max-width: 1060px) {
