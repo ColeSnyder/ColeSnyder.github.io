@@ -28,7 +28,7 @@ function DarkMode() {
         document.getElementById("roundAvitar").src = "../PHOTOS/AvitarDarkMode.png"
         document.getElementById("pen").style.color = "#DDDDDD";
         document.getElementById("comp").style.color = "#DDDDDD";
-        // document.getElementById("darkModeExperience").style.backgroundColor = "#DDDDDD";
+        document.getElementById("darkModeLink").style.color = "#DDDDDD";
         darkmode = true;
     } else {
         document.body.style.color = "#2d2d2d";
@@ -40,7 +40,7 @@ function DarkMode() {
         document.getElementById("roundAvitar").src = "../PHOTOS/Avitar.png";
         document.getElementById("pen").style.color = "#565656";
         document.getElementById("comp").style.color = "#565656";
-        // document.getElementById("darkModeExperience").style.backgroundColor = "white";
+        document.getElementById("darkModeLink").style.color = "black";
         darkmode = false;
     }
 }
