@@ -29,6 +29,7 @@ function DarkMode() {
         document.getElementById("pen").style.color = "#DDDDDD";
         document.getElementById("comp").style.color = "#DDDDDD";
         document.getElementById("darkModeLink").style.color = "#DDDDDD";
+        
         darkmode = true;
     } else {
         document.body.style.color = "#2d2d2d";

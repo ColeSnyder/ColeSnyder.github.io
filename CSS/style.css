@@ -379,6 +379,10 @@ hr {
     cursor: pointer;
 }
 
+#colesnyderart {
+    color: #00d9ed;
+}
+
 @media only screen and (max-width: 1060px) {
     #list {
         grid-template-columns: 1fr 1fr;
