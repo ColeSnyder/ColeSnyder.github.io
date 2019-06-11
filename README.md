@@ -1,4 +1,4 @@
 # ColeSnyder.github.io
 ---
-permalink: /index.html
+permalink: /HTML/index.html
 ---
