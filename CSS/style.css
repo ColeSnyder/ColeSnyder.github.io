@@ -360,7 +360,15 @@ hr {
     margin: 0;
 }
 
+/* .experiencePic {
+    width: 25%;
+} */
+
 #bubs {
+    background-size: 100% 100%;
+}
+
+#pc {
     width: 550px;
     height: 325px;
 }
