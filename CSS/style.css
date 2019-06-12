@@ -237,6 +237,34 @@ hr {
     height: 50px;
 }
 
+#php {
+    background-image: url("../PHOTOS/php.png");
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+}
+
+#sql {
+    background-image: url("../PHOTOS/sql.png");
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+}
+
+#powershell {
+    background-image: url("../PHOTOS/powershell.png");
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+}
+
+#java {
+    background-image: url("../PHOTOS/java.png");
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+}
+
 #headshot {
     background-image: url("../PHOTOS/cole.jpg");
     background-size: cover;
@@ -347,11 +375,12 @@ hr {
 
 .experienceText {
     margin-top: 5%;
+    margin-right: -4%;
+    margin-bottom: 2%;
     background-color: white;
     height: 50%;
-    width: 100%;
+    width: 50%;
     border-radius: 4px;
-    margin-right: -4%;
     padding: 3%;
     z-index: 3;
 }
@@ -360,17 +389,17 @@ hr {
     margin: 0;
 }
 
-/* .experiencePic {
-    width: 25%;
-} */
+.experiencePic {
+    width: 60%;
+    background-size: cover;
+}
 
 #bubs {
-    background-size: 100% 100%;
+    background-image: url("../PHOTOS/bubs.png");
 }
 
 #pc {
-    width: 550px;
-    height: 325px;
+    background-image: url("../PHOTOS/PC.PNG");
 }
 
 .experienceItem {
@@ -389,6 +418,17 @@ hr {
 
 #colesnyderart {
     color: #00d9ed;
+}
+
+.hub {
+    position: relative;
+    float: right;
+    width: 25px;
+    height: 25px;
+}
+
+.hub:hover {
+    cursor: pointer;
 }
 
 @media only screen and (max-width: 1060px) {
