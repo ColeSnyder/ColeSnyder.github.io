@@ -1,4 +1,5 @@
 var darkmode = false;
+var additionalSkills = false;
 
 var h2length = document.getElementsByTagName("h2").length;
 
@@ -33,5 +34,20 @@ function DarkMode() {
         document.getElementById("darkModeLink").style.color = "black";
         document.getElementById("darkModeLink2").style.color = "black";
         darkmode = false;
+    }
+}
+
+function SeeMoreLess() {
+
+    if(additionalSkills == false) {
+        document.getElementById("MoreLessContent").classList.remove("extendedListOption");
+        document.getElementById("MoreLessContent").classList.add("extendedListActive");
+        document.getElementById("MoreLessToggle").innerHTML = "See Less"
+        additionalSkills = true;
+    } else {
+        document.getElementById("MoreLessContent").classList.remove("extendedListActive");
+        document.getElementById("MoreLessContent").classList.add("extendedListOption");
+        additionalSkills = false;
+        document.getElementById("MoreLessToggle").innerHTML = "See More"
     }
 }

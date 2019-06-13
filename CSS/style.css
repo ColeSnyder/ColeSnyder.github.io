@@ -301,11 +301,32 @@ hr {
 
 #list {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr); 
     grid-gap: 20px;
     padding-left: 10%;
     padding-right: 10%;
     padding-bottom: 1%;
+}
+
+.extendedListActive {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-gap: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 1%;
+}
+
+.extendedListOption {
+    display: none;
+}
+
+#MoreLessToggle {
+    text-align: center;
+}
+
+#MoreLessToggle:hover {
+    cursor: pointer;
 }
 
 .skill {
