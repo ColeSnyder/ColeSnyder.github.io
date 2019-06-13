@@ -19,7 +19,7 @@ function DarkMode() {
         document.getElementById("comp").style.color = "#DDDDDD";
         document.getElementById("darkModeLink").style.color = "#DDDDDD";
         document.getElementById("darkModeLink2").style.color = "#DDDDDD";
-
+        document.getElementById("MoreLessToggle").style.color = "#DDDDDD";
         darkmode = true;
     } else {
         document.body.style.color = "#2d2d2d";
@@ -33,6 +33,7 @@ function DarkMode() {
         document.getElementById("comp").style.color = "#565656";
         document.getElementById("darkModeLink").style.color = "black";
         document.getElementById("darkModeLink2").style.color = "black";
+        document.getElementById("MoreLessToggle").style.color = "black";
         darkmode = false;
     }
 }
@@ -42,12 +43,12 @@ function SeeMoreLess() {
     if(additionalSkills == false) {
         document.getElementById("MoreLessContent").classList.remove("extendedListOption");
         document.getElementById("MoreLessContent").classList.add("extendedListActive");
-        document.getElementById("MoreLessToggle").innerHTML = "See Less"
+        document.getElementById("MoreLessToggle").innerHTML = "<span>See Less</span>"
         additionalSkills = true;
     } else {
         document.getElementById("MoreLessContent").classList.remove("extendedListActive");
         document.getElementById("MoreLessContent").classList.add("extendedListOption");
         additionalSkills = false;
-        document.getElementById("MoreLessToggle").innerHTML = "See More"
+        document.getElementById("MoreLessToggle").innerHTML = "<span>See More</span>"
     }
 }
