@@ -398,9 +398,7 @@ span:hover {
     margin: 0;
     flex-direction: row;
     border-radius: 4px;
-    padding: 5%;
-    padding-left: 0;
-    padding-top: 0;
+    padding-bottom: 5%;
 }
 
 .experienceText {
@@ -408,7 +406,6 @@ span:hover {
     margin-right: -4%;
     margin-bottom: 2%;
     background-color: white;
-    height: 50%;
     width: 50%;
     border-radius: 4px;
     padding: 3%;
@@ -420,7 +417,7 @@ span:hover {
 }
 
 .experiencePic {
-    width: 60%;
+    width: 75%;
     background-size: cover;
 }
 
