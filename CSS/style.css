@@ -143,17 +143,6 @@ hr {
     overflow-y: scroll;
   }
 
-
-
-
-
-
-
-
-
-
-
-
 #para1 {
     display: flex;
     background-color: #DDDDDD;
@@ -163,14 +152,6 @@ hr {
     transform: translateZ(-1px) scale(2);
     z-index: -1;
 }
-
-
-
-
-
-
-
-
 
 #para2 {
     z-index: 1;
@@ -478,22 +459,18 @@ span:hover {
     }
   }
 
-  @media only screen and (max-width: 700px) {
+  @media only screen and (max-width: 980px) {
     #list {
         grid-template-columns: 1fr;
     }
   }
 
-  @media only screen and (max-width: 500px) {
+  @media only screen and (max-width: 750) {
     #para1 {
         display: inline;
-        background-color: #DDDDDD;
-        position: relative;
-        transform: translateZ(-1px) scale(2);
-        z-index: -1;
+        background-color: black;
     }
   }
-
 
 @keyframes fadeIn {
     0% {-webkit-transform: translateY(40px); opacity: 0;} 
