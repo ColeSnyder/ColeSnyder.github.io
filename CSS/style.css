@@ -143,6 +143,17 @@ hr {
     overflow-y: scroll;
   }
 
+
+
+
+
+
+
+
+
+
+
+
 #para1 {
     display: flex;
     background-color: #DDDDDD;
@@ -153,6 +164,14 @@ hr {
     z-index: -1;
 }
 
+
+
+
+
+
+
+
+
 #para2 {
     z-index: 1;
     background-color: white;
@@ -162,7 +181,6 @@ hr {
 }
 
 #para3 {
-    height: 100%;
     background-color: #DDDDDD;
     min-height: 100%;
     padding-bottom: 10%;
@@ -330,10 +348,6 @@ hr {
     margin-bottom: 0;
 }
 
-/* #MoreLessToggle:hover {
-    cursor: pointer;
-} */
-
 span:hover {
     cursor: pointer;
 }
@@ -467,6 +481,16 @@ span:hover {
   @media only screen and (max-width: 700px) {
     #list {
         grid-template-columns: 1fr;
+    }
+  }
+
+  @media only screen and (max-width: 500px) {
+    #para1 {
+        display: inline;
+        background-color: #DDDDDD;
+        position: relative;
+        transform: translateZ(-1px) scale(2);
+        z-index: -1;
     }
   }
 
