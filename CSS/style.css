@@ -3,6 +3,10 @@ body {
     font-family: 'Arimo', sans-serif;
 }
 
+* {
+    -webkit-overflow-scrolling: touch;
+}
+
 #darkModeButton {
     position: absolute;
     top: 20px;
