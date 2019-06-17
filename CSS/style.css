@@ -11,6 +11,7 @@ body {
     position: absolute;
     top: 20px;
     right: 20px;
+    z-index: 3;
 }
 
 p {
@@ -54,12 +55,11 @@ hr {
 }
 
 #ColeSnyder {
-    margin-top: 10%;
-    color: #00d9ed; 
+    color: #2d2d2d; 
     opacity: 0;
-    text-align: right; 
-    width: 50%;
-    font-size: 3em; 
+    text-align: center;
+    width: 100%;
+    font-size: 2em; 
     -webkit-animation: fadeIn 500ms forwards; 
     -moz-animation: fadeIn 500ms forwards; 
     -o-animation: fadeIn 500ms forwards;
@@ -67,28 +67,11 @@ hr {
     animation-delay: 500ms;
 }
 
-#Avitar {
-    width: 50%;
-    margin: auto;
-}
-
 #roundAvitar {
     border-radius: 25px;
-    display:block;
-    margin-left:auto;
-    margin-right:auto;
-}
-
-#cole {
-    float: left;
-}
-
-#snyder {
-    float: right;
 }
 
 #FrontEndDeveloper {
-    float: right;
     color: #2d2d2d;
     opacity: 0;
     font-size: 30px;
@@ -271,8 +254,8 @@ hr {
 #headshot {
     background-image: url("../PHOTOS/cole.jpg");
     background-size: cover;
-    width: 120px;
-    height: 120px;
+    width: 115px;
+    height: 115px;
     border-radius: 5px;
 }
 
@@ -282,7 +265,7 @@ hr {
 }
 
 #comp {
-    font-size: 6em;
+    font-size: 5.6em;
     color: #565656;
 }
 
@@ -501,6 +484,10 @@ span:hover {
     .title {
         font-size: 20px;
     }
+    footer {
+        height: 375px;
+    }
+    
   }
 
 @keyframes fadeIn {

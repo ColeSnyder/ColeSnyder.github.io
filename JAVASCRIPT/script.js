@@ -14,6 +14,7 @@ function DarkMode() {
         document.getElementById("para3").style.backgroundColor = "#303030";
         document.getElementById("para4").style.backgroundColor = "#262626";
         document.getElementById("FrontEndDeveloper").style.color = "#DDDDDD";
+        document.getElementById("ColeSnyderTitle").style.color = "#DDDDDD";
         document.getElementById("roundAvitar").src = "PHOTOS/AvitarDarkMode.png"
         document.getElementById("pen").style.color = "#DDDDDD";
         document.getElementById("comp").style.color = "#DDDDDD";
@@ -28,6 +29,7 @@ function DarkMode() {
         document.getElementById("para3").style.backgroundColor = "#DDDDDD";
         document.getElementById("para4").style.backgroundColor = "white";
         document.getElementById("FrontEndDeveloper").style.color = "#2d2d2d";
+        document.getElementById("ColeSnyderTitle").style.color = "#2d2d2d";
         document.getElementById("roundAvitar").src = "PHOTOS/Avitar.png";
         document.getElementById("pen").style.color = "#565656";
         document.getElementById("comp").style.color = "#565656";
