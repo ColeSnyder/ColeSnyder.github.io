@@ -130,7 +130,7 @@ hr {
 #para1 {
     display: flex;
     background-color: #DDDDDD;
-    flex: 1 0 auto;
+    /* flex: 1 0 auto; */
     position: relative;
     height: 100vh;
     transform: translateZ(-1px) scale(2);
@@ -483,7 +483,10 @@ span:hover {
         height: 375px;
     }
     #roundAvitar {
-        width: 60%;
+        width: 30%;
+    }
+    #ColeSnyderTitle {
+        font-size: 30px;
     }
     
   }
