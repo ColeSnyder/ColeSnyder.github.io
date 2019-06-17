@@ -465,9 +465,29 @@ span:hover {
     }
   }
 
-  @media only screen and (max-width: 755px) {
-    #para1 {
-        display: inline;
+  @media only screen and (max-width: 470px) {
+    #headshot {
+        width: 70px;
+        height: 70px;
+    }
+    #comp {
+        font-size: 2.8em;
+    }
+    #pen {
+        font-size: 4em;
+    }
+    .hobbyInfo {
+    padding-left: 0%;
+    width: 100%;
+    padding-bottom: 5%;
+    }
+    .aboutLayout {
+    margin-left: 5%;
+    width: 85%;
+    margin-top: 10px; 
+    }
+    #aboutTitle {
+        margin-left: 10px;
     }
   }
 
