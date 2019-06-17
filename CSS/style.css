@@ -457,15 +457,24 @@ span:hover {
     #list {
         grid-template-columns: 1fr 1fr;
     }
+    .extendedListActive {
+        grid-template-columns: 1fr 1fr;
+    }
+    .skill {
+        width: 100%;
+    }
   }
 
   @media only screen and (max-width: 700px) {
     #list {
         grid-template-columns: 1fr;
     }
-  }
-
-  @media only screen and (max-width: 470px) {
+    .extendedListActive {
+        grid-template-columns: 1fr;
+    }
+    .skill {
+        width: 100%;
+    }
     #headshot {
         width: 70px;
         height: 70px;
@@ -477,17 +486,23 @@ span:hover {
         font-size: 4em;
     }
     .hobbyInfo {
-    padding-left: 0%;
-    width: 100%;
-    padding-bottom: 5%;
+        padding-left: 0%;
+        width: 100%;
+        padding-bottom: 5%;
     }
     .aboutLayout {
-    margin-left: 5%;
-    width: 85%;
-    margin-top: 10px; 
+        margin-left: 5%;
+        width: 85%;
+        margin-top: 10px; 
     }
     #aboutTitle {
-        margin-left: 10px;
+            margin-left: 10px;
+    }
+  }
+
+  @media only screen and (max-width: 470px) {
+    .skill {
+        width: 100%;
     }
   }
 
