@@ -69,6 +69,7 @@ hr {
 
 #roundAvitar {
     border-radius: 25px;
+    width: 25%;
 }
 
 #FrontEndDeveloper {
@@ -486,6 +487,9 @@ span:hover {
     }
     footer {
         height: 375px;
+    }
+    #roundAvatar {
+        width: 50%;
     }
     
   }
