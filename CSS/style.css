@@ -132,7 +132,7 @@ hr {
     background-color: #DDDDDD;
     /* flex: 1 0 auto; */
     position: relative;
-    height: 100vh;
+    height: 100%;
     transform: translateZ(-1px) scale(2);
     z-index: -1;
 }
@@ -491,7 +491,7 @@ span:hover {
     
   }
 
-@keyframes fadeIn {
+/* @keyframes fadeIn {
     0% {-webkit-transform: translateY(40px); opacity: 0;} 
     100% {-webkit-transform: translateY(0); opacity: 1;}
 }
@@ -499,4 +499,4 @@ span:hover {
 @keyframes appear {
     0% {opacity: 0;}
     100% {opacity: 1;}
-}
+} */
