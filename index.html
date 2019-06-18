@@ -11,7 +11,6 @@
   <link href="https://fonts.googleapis.com/css?family=Arimo|Fira+Sans&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="icon" href="PHOTOS/CS.png">
   <link rel="stylesheet" href="CSS/style.css">
 </head>
@@ -20,25 +19,21 @@
 
   <div class="MainContainer">
     <div id="para1" class="paraSection">
-      <div class="container">
-        <div class="row">
-          <button id="darkModeButton" onclick="DarkMode();">Dark Mode</button>
-            <div id="ColeSnyder">
-              <img id="roundAvitar" src="PHOTOS/Avitar.png">
-              <h1 id="ColeSnyderTitle">Cole Snyder</h1>
-              <h1 id="FrontEndDeveloper">Front End Developer</h1>
-            </div>
+      <button id="darkModeButton" onclick="DarkMode();">Dark Mode</button>
+        <div id="ColeSnyder">
+            <img id="roundAvitar" src="PHOTOS/Avitar.png">
+            <h1 id="ColeSnyderTitle">Cole Snyder</h1>
+            <h1 id="FrontEndDeveloper">Front End Developer</h1>
         </div>
-      </div>
     </div>
 
     <div id="para2" class="paraSection">
         <h1 id="experience" class="title">All About Me</h1>
         <br>
 
-        <div class="col">
+        <div id="aboutList">
 
-        <div class="row about">
+        <div class="aboutLayout">
             <div class="listPic" id="headshot"></div>
             <div class="hobbyInfo">
                 <div>
@@ -53,7 +48,7 @@
 
         <hr>
 
-        <div class="row about">
+        <div class="aboutLayout">
           <div class="listPic"><a href="https://www.youtube.com/channel/UCFnmswuuNwJNZxlirLT5w9w" target="_blank"><i id="pen" class="fas fa-pen-square"></i></a></div>
           <div class="hobbyInfo">
               <div>
@@ -64,11 +59,11 @@
                 The first creative outlet I've had experience with was drawing in high school. I had a very talented instructor who thought I had a knack for drawing and so he pointed me in the direction of <i><b>Photorealism</b></i>. I started to make large portraits of famous people and really enjoyed it. Soon I wanted to add a little uniqueness to it so I would record myself drawing the portraits with a tablet and after about 9 hours of drawing it would be finished. I would take the finished video and speed it up 64x and add my favorite music to it. The result is the drawings on my YouTube page. I had a great time making them and I hope you enjoy them too! - <a href="https://www.youtube.com/channel/UCFnmswuuNwJNZxlirLT5w9w" target="_blank" id="colesnyderart">ColeSnyderArt</a>
               </div>
           </div>
-      </div>
+        </div>
 
       <hr>
 
-        <div class="row about">
+        <div class="aboutLayout">
             <div class="listPic"><i id="comp" class="fas fa-laptop-code"></i></div>
             <div class="hobbyInfo">
                 <div>
@@ -80,7 +75,8 @@
                 </div>
             </div>
         </div>
-    </div>
+
+      </div>
     </div>
 
     <div id="para3" class="paraSection">
