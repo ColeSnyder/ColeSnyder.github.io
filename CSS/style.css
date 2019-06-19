@@ -496,8 +496,8 @@ span:hover {
     #ColeSnyderTitle {
         font-size: 2.5em;
     }
-    #tag {
-        float: none; 
+    #darkmodetag {
+        font-size: .8em;
     }
   }
 
