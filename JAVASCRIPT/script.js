@@ -21,6 +21,7 @@ function DarkMode() {
         document.getElementById("darkModeLink").style.color = "#DDDDDD";
         document.getElementById("darkModeLink2").style.color = "#DDDDDD";
         document.getElementById("MoreLessToggle").style.color = "#DDDDDD";
+        document.getElementById("darkmodetag").style.color = "#DDDDDD";
         darkmode = true;
     } else {
         document.body.style.color = "#2d2d2d";
@@ -36,6 +37,7 @@ function DarkMode() {
         document.getElementById("darkModeLink").style.color = "black";
         document.getElementById("darkModeLink2").style.color = "black";
         document.getElementById("MoreLessToggle").style.color = "black";
+        document.getElementById("darkmodetag").style.color = "black";
         darkmode = false;
     }
 }

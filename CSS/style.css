@@ -128,25 +128,24 @@ hr {
 
 .MainContainer {
     perspective: 1px;
-    /* transform-style: preserve-3d; */
     height: 100vh;
-    /* overflow-x: hidden; */
-    /* overflow-y: scroll; */
   }
 
 #para1 {
-    /* display: flex; */
     background-color: #DDDDDD;
     position: relative;
     min-height: 100%; 
-    /* max-height: 100%;*/
-    /* transform: translateZ(-1px) scale(2); */
-    /* z-index: -1; */
 }
 
 #para2 {
     background-color: white;
     min-height: 100%;
+}
+
+#para3 {
+    background-color: #DDDDDD;
+    min-height: 100%;
+    padding-bottom: 10%;
 }
 
 #para4 {
@@ -156,18 +155,6 @@ hr {
     display: block;
     padding-bottom: 5%;
 }
-
-#para3 {
-    background-color: #DDDDDD;
-    min-height: 100%;
-    padding-bottom: 10%;
-}
-
-/* #para5 {
-    height: 750px;
-    background-color: #DDDDDD;
-    min-height: 100%;
-} */
 
 #ColeSnyderResume {
     background-color: white;
@@ -519,4 +506,77 @@ span:hover {
 @keyframes appear {
     0% {opacity: 0;}
     100% {opacity: 1;}
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #555555;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: black;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #666666;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #666666;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+#darkmodebutton {
+    position: absolute;
+    display: inline;
+    top: 20px;
+    right: 1%;
+    z-index: 3;
+}
+
+#darkmodetag {
+    float: right;
+    margin-top: 6px;
+    margin-left: 6px;
 }

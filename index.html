@@ -3,7 +3,6 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-
   <title>Cole Snyder</title>
   <meta name="description" content="Personal website for Cole Snyder.">
   <meta name="author" content="Cole Snyder">
@@ -21,8 +20,14 @@
   <div class="MainContainer">
     <div id="para1" class="paraSection">
       <div class="container">
+        <div id="darkmodebutton">
+          <label class="switch">
+              <input type="checkbox" onclick="DarkMode();">
+              <span class="slider round"></span>
+          </label>
+          <p id="darkmodetag">Dark Mode</p>
+        </div>
         <div class="row">
-          <button id="darkModeButton" onclick="DarkMode();">Dark Mode</button>
             <div id="ColeSnyder">
               <img id="roundAvitar" src="PHOTOS/Avitar.png">
               <h1 id="ColeSnyderTitle">Cole Snyder</h1>
