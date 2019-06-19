@@ -508,7 +508,7 @@ span:hover {
     100% {opacity: 1;}
 }
 
-.switch {
+/* .switch {
     position: relative;
     display: inline-block;
     width: 60px;
@@ -566,17 +566,66 @@ span:hover {
   .slider.round:before {
     border-radius: 50%;
   }
+*/
 
 #darkmodebutton {
     position: absolute;
     display: inline;
     top: 20px;
-    right: 1%;
+    right: 8%;
     z-index: 3;
-}
+} 
 
 #darkmodetag {
     float: right;
-    margin-top: 6px;
-    margin-left: 6px;
+}
+
+
+
+
+
+
+
+
+
+input[type=checkbox]{
+	height: 0;
+	width: 0;
+	visibility: hidden;
+}
+
+label {
+    cursor: pointer;
+	text-indent: -9999px;
+	width: 60px;
+    height: 35px;
+	background: #333333;
+	display: block;
+	border-radius: 100px;
+    position: relative;
+}
+
+label:after {
+	content: '';
+	position: absolute;
+	top: 5px;
+    left: 5px;
+	width: 25px;
+	height: 25px;
+	background: #fff;
+	border-radius: 90px;
+	transition: 0.3s;
+}
+
+input:checked + label {
+	background: #666666;
+}
+
+input:checked + label:after {
+	left: calc(100% - 5px);
+	transform: translateX(-100%);
+}
+
+label:active:after {
+	width: 30px;
 }
