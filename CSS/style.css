@@ -76,7 +76,7 @@ hr {
 #roundAvitar {
     border-radius: 25px;
     width: 25%;
-    margin-top: 5%;
+    margin-top: 15%;
 }
 
 #FrontEndDeveloper {
@@ -624,7 +624,7 @@ label:active:after {
 
 #tag {
     float: right;
-    margin-top: 30px;
+    margin-top: 27px;
     margin-left: 5px;
 }
 
