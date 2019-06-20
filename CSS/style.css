@@ -52,6 +52,13 @@ hr {
     height: .9px;
 }
 
+#experienceHR {
+    border: none;
+    width: 50%;
+    background-color: #666666;
+    height: .9px;
+}
+
 #aboutMeText {
     margin-left: 15%;
     margin-right: 15%;
@@ -348,12 +355,14 @@ span:hover {
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 5px;
+    padding-bottom: 5px;
     border-radius: 4px;
 }
 
 .skillText {
     padding-left: 7%;
     padding-right: 7%;
+    padding-top: 15px;
     color: #2d2d2d;
 }
 
@@ -408,23 +417,31 @@ span:hover {
     margin: 0;
 }
 
-.experiencePic {
+/* .experiencePic {
     width: 75%;
-    background-size: cover;
-}
+    background-size: cover; 
+} */
 
-#bubs {
+/* #bubs {
     background-image: url("../PHOTOS/bubs.png");
-}
+} */
 
-#pc {
+/* #pc {
     background-image: url("../PHOTOS/PC.PNG");
+} */
+
+/* .experienceItem {
+
+} */
+
+.experienceTitle {
+    margin-bottom: 5%;
+    font-size: 1.5em;
 }
 
-.experienceItem {
-    width: 75%;
-    margin: auto;
-}
+/* .experienceContent {
+    background-color: white;
+} */
 
 .TitleNoMargin {
     margin: 0;
@@ -442,8 +459,8 @@ span:hover {
 .hub {
     position: relative;
     float: right;
-    width: 25px;
-    height: 25px;
+    width: 30px;
+    height: 30px;
 }
 
 .hub:hover {
@@ -520,6 +537,39 @@ span:hover {
         font-size: .8em;
         margin-top: 3px;
     }
+    .backwardsRow {
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -moz-box-orient: vertical;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        /* -webkit-box-align: start;
+        -moz-box-align: start;
+        -ms-flex-align: start;
+        -webkit-align-items: flex-start;
+        align-items: flex-start; */
+      }
+    
+      .backwardsRow .first {
+        -webkit-box-ordinal-group: 2;
+        -moz-box-ordinal-group: 2;
+        -ms-flex-order: 2;
+        -webkit-order: 2;
+        order: 2;
+      }
+    
+      .backwardsRow .second {
+        -webkit-box-ordinal-group: 1;
+        -moz-box-ordinal-group: 1;
+        -ms-flex-order: 1;
+        -webkit-order: 1;
+        order: 1;
+      }
   }
 
 @keyframes fadeIn {
