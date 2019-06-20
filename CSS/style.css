@@ -187,6 +187,16 @@ hr {
     height: 50px;
 }
 
+#skillHover {
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+}
+
+#skillHover:hover {
+    top: -10px;
+}
+
 #css {
     background-image: url("../PHOTOS/CSS.png");
     background-size: cover;
@@ -537,6 +547,9 @@ span:hover {
         font-size: .8em;
         margin-top: 3px;
     }
+    h4 {
+        font-size: 1em;
+    }
     .backwardsRow {
         display: -webkit-box;
         display: -moz-box;
@@ -548,13 +561,7 @@ span:hover {
         -webkit-flex-direction: column;
         -ms-flex-direction: column;
         flex-direction: column;
-        /* -webkit-box-align: start;
-        -moz-box-align: start;
-        -ms-flex-align: start;
-        -webkit-align-items: flex-start;
-        align-items: flex-start; */
       }
-    
       .backwardsRow .first {
         -webkit-box-ordinal-group: 2;
         -moz-box-ordinal-group: 2;
@@ -562,7 +569,6 @@ span:hover {
         -webkit-order: 2;
         order: 2;
       }
-    
       .backwardsRow .second {
         -webkit-box-ordinal-group: 1;
         -moz-box-ordinal-group: 1;
