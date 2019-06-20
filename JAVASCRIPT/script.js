@@ -18,8 +18,10 @@ function DarkMode() {
         document.getElementById("roundAvitar").src = "PHOTOS/AvitarDarkMode.png"
         document.getElementById("pen").style.color = "#DDDDDD";
         document.getElementById("comp").style.color = "#DDDDDD";
-        document.getElementById("darkModeLink").style.color = "#DDDDDD";
-        document.getElementById("darkModeLink2").style.color = "#DDDDDD";
+        document.getElementById("experienceText1").style.color = "#DDDDDD";
+        document.getElementById("experienceText2").style.color = "#DDDDDD";
+        document.getElementById("experienceText3").style.color = "#DDDDDD";
+        document.getElementById("experienceText4").style.color = "#DDDDDD";
         document.getElementById("MoreLessToggle").style.color = "#DDDDDD";
         document.getElementById("darkmodetag").style.color = "#DDDDDD";
         document.getElementById("darkmodetag").innerHTML = "Light Mode";
@@ -35,8 +37,10 @@ function DarkMode() {
         document.getElementById("roundAvitar").src = "PHOTOS/Avitar.png";
         document.getElementById("pen").style.color = "#565656";
         document.getElementById("comp").style.color = "#565656";
-        document.getElementById("darkModeLink").style.color = "black";
-        document.getElementById("darkModeLink2").style.color = "black";
+        document.getElementById("experienceText1").style.color = "black";
+        document.getElementById("experienceText2").style.color = "black";
+        document.getElementById("experienceText3").style.color = "black";
+        document.getElementById("experienceText4").style.color = "black";
         document.getElementById("MoreLessToggle").style.color = "black";
         document.getElementById("darkmodetag").style.color = "black";
         document.getElementById("darkmodetag").innerHTML = "Dark Mode";

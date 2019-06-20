@@ -421,7 +421,7 @@ span:hover {
     padding-bottom: 5%;
 }
 
-.experienceText {
+/* .experienceText {
     margin-top: 5%;
     margin-right: -4%;
     margin-bottom: 2%;
@@ -430,7 +430,7 @@ span:hover {
     border-radius: 4px;
     padding: 3%;
     z-index: 3;
-}
+} */
 
 #darkModeExperience {
     margin: 0;
