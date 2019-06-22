@@ -211,7 +211,7 @@ hr {
     height: 50px;
 }
 
-#skillHover {
+/* #skillHover {
     position: relative;
     top: 0;
     transition: top ease 0.5s;
@@ -219,7 +219,7 @@ hr {
 
 #skillHover:hover {
     top: -10px;
-}
+} */
 
 #css {
     background-image: url("../PHOTOS/CSS.png");
@@ -452,9 +452,9 @@ span:hover {
     #roundAvitar {
         width: 30%;
     }
-  }
+}
 
-  @media only screen and (min-width: 700px) {
+@media only screen and (min-width: 700px) {
     .MainContainer {
         perspective: 1px;
         transform-style: preserve-3d;
@@ -472,50 +472,18 @@ span:hover {
         transform: translateZ(-1px) scale(2);
         z-index: -1;
     }
-    input[type=checkbox]{
-        height: 0;
-        width: 0;
-        visibility: hidden;
-    }
-    
-    label {
-        cursor: pointer;
-        text-indent: -9999px;
-        width: 50px;
-        height: 30px;
-        background: #333333;
-        display: block;
-        border-radius: 100px;
+    #skillHover {
         position: relative;
+        top: 0;
+        transition: top ease 0.5s;
     }
     
-    label:after {
-        content: '';
-        position: absolute;
-        top: 5px;
-        left: 5px;
-        width: 20px;
-        height: 20px;
-        background: #fff;
-        border-radius: 90px;
-        transition: 0.3s;
+    #skillHover:hover {
+        top: -10px;
     }
-    
-    input:checked + label {
-        background: #666666;
-    }
-    
-    input:checked + label:after {
-        left: calc(100% - 5px);
-        transform: translateX(-100%);
-    }
-    
-    label:active:after {
-        width: 20px;
-    }
-  }
+}
 
-  @media only screen and (max-width: 700px) {
+@media only screen and (max-width: 700px) {
     #list {
         grid-template-columns: 1fr;
     }
@@ -582,7 +550,7 @@ span:hover {
         -webkit-order: 1;
         order: 1;
       }
-  }
+}
 
 @keyframes fadeIn {
     0% {-webkit-transform: translateY(40px); opacity: 0;} 
@@ -606,7 +574,7 @@ span:hover {
     float: right;
 }
 
-/* input[type=checkbox]{
+input[type=checkbox]{
 	height: 0;
 	width: 0;
 	visibility: hidden;
@@ -646,7 +614,7 @@ input:checked + label:after {
 
 label:active:after {
 	width: 20px;
-} */
+}
 
 #tag {
     float: right;
