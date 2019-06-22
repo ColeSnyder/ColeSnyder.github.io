@@ -3,9 +3,9 @@ body {
     font-family: 'Arimo', sans-serif;
 }
 
-/* #resumePage {
+#resumePage {
     margin: 0;
-} */
+} 
 
 #resumeContent {
     background-color: #DDDDDD;
@@ -36,6 +36,15 @@ footer {
     padding-top: 5%;
 }
 
+#noMargin {
+    margin: 0;
+}
+
+#resumeFooter {
+    margin-bottom: -75px;
+    height: 235px;
+}
+
 h1 {
     width: 100%;
 }
@@ -58,14 +67,14 @@ hr {
     border: none;
     width: 50%;
     background-color: #e0e0e0;
-    height: .9px;
+    height: 1px;
 }
 
 #experienceHR {
     border: none;
     width: 50%;
     background-color: #666666;
-    height: .9px;
+    height: 1px;
 }
 
 #aboutMeText {
@@ -115,14 +124,25 @@ hr {
 }
 
 .title {
-    position: relative;
-    width: 20%;
-    background-color: #00d9ed;
-    color: white;
-    padding-left: 2%;
+    margin-left: 10px;
+    text-align: center;
+    /* text-align: center; */
+    /* position: relative; */
+    /* width: 20%; */
+    /* background-color: #00d9ed; */
+    /* color: white; */
+    /* padding-left: 2%; */
     font-size: 40px;
-    -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%, 75% 0);
-    clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 95%, 90% 0);
+    /* -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%, 75% 0); */
+    /* clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 95%, 90% 0); */
+}
+
+.titleBox {
+    display: inline;
+}
+
+#hiddenHR {
+    visibility: hidden;
 }
 
 #linkedin {
@@ -149,7 +169,7 @@ hr {
 .MainContainer {
     perspective: 1px;
     height: 100vh;
-  }
+}
 
 #para1 {
     background-color: #DDDDDD;
@@ -180,14 +200,8 @@ hr {
     background-color: white;
     min-height: 100%;
     width: 100%;
+    padding: 0;
 }
-
-/* #contactList {
-    display:flex;
-    flex-direction:row;
-    justify-content: space-around;
-    margin-top: 1%;
-} */
 
 #html {
     background-image: url("../PHOTOS/HTML.png");
@@ -315,11 +329,6 @@ hr {
     color: #565656;
 }
 
-/* #work {
-    font-size: 8em;
-    color: #565656;
-} */
-
 .contactBox {
     margin-top: 30px;
     display: flex;
@@ -390,19 +399,6 @@ span:hover {
     padding-right: 10%;
 }
 
-/* #aboutList {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    width: 100%;
-} */
-
-/* .skillInfo {
-    padding-left: 10%;
-    width: 75%;
-    height: 150px;
-} */
-
 .hobbyInfo {
     padding-left: 10%;
     width: 90%;
@@ -421,55 +417,14 @@ span:hover {
     padding-bottom: 5%;
 }
 
-/* .experienceText {
-    margin-top: 5%;
-    margin-right: -4%;
-    margin-bottom: 2%;
-    background-color: white;
-    width: 50%;
-    border-radius: 4px;
-    padding: 3%;
-    z-index: 3;
-} */
-
 #darkModeExperience {
     margin: 0;
 }
-
-/* .experiencePic {
-    width: 75%;
-    background-size: cover; 
-} */
-
-/* #bubs {
-    background-image: url("../PHOTOS/bubs.png");
-} */
-
-/* #pc {
-    background-image: url("../PHOTOS/PC.PNG");
-} */
-
-/* .experienceItem {
-
-} */
 
 .experienceTitle {
     margin-bottom: 5%;
     font-size: 1.5em;
 }
-
-/* .experienceContent {
-    background-color: white;
-} */
-
-.TitleNoMargin {
-    margin: 0;
-    color: black;
-}
-
-/* .experienceItemTitle:hover {
-    cursor: pointer;
-} */
 
 #colesnyderart {
     color: #00d9ed;
