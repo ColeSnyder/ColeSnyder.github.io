@@ -70,12 +70,26 @@ hr {
     height: 1px;
 }
 
-#experienceHR {
+.experienceHRDark {
     border: none;
     width: 50%;
     background-color: #666666;
     height: 1px;
 }
+
+/* #experienceHR1 {
+    border: none;
+    width: 50%;
+    background-color: #666666;
+    height: 1px;
+}
+
+#experienceHR2 {
+    border: none;
+    width: 50%;
+    background-color: #666666;
+    height: 1px;
+} */
 
 #aboutMeText {
     margin-left: 15%;
