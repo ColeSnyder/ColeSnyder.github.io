@@ -124,17 +124,8 @@ hr {
 }
 
 .title {
-    /* margin-left: 10px; */
     text-align: center;
-    /* text-align: center; */
-    /* position: relative; */
-    /* width: 20%; */
-    /* background-color: #00d9ed; */
-    /* color: white; */
-    /* padding-left: 2%; */
     font-size: 40px;
-    /* -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%, 75% 0); */
-    /* clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 95%, 90% 0); */
 }
 
 .titleBox {
@@ -210,16 +201,6 @@ hr {
     width: 50px;
     height: 50px;
 }
-
-/* #skillHover {
-    position: relative;
-    top: 0;
-    transition: top ease 0.5s;
-}
-
-#skillHover:hover {
-    top: -10px;
-} */
 
 #css {
     background-image: url("../PHOTOS/CSS.png");
