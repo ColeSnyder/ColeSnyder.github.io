@@ -25,6 +25,8 @@ function DarkMode() {
         document.getElementById("MoreLessToggle").style.color = "#DDDDDD";
         document.getElementById("darkmodetag").style.color = "#DDDDDD";
         document.getElementById("darkmodetag").innerHTML = "Light Mode";
+        document.getElementById("bubsGit").src = "PHOTOS/githubDarkMode.png";
+        document.getElementById("setupGit").src = "PHOTOS/githubDarkMode.png";
         darkmode = true;
     } else {
         document.body.style.color = "#2d2d2d";
@@ -44,6 +46,8 @@ function DarkMode() {
         document.getElementById("MoreLessToggle").style.color = "black";
         document.getElementById("darkmodetag").style.color = "black";
         document.getElementById("darkmodetag").innerHTML = "Dark Mode";
+        document.getElementById("bubsGit").src = "PHOTOS/github.png";
+        document.getElementById("setupGit").src = "PHOTOS/github.png";
         darkmode = false;
     }
 }
