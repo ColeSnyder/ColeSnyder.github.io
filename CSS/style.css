@@ -77,20 +77,6 @@ hr {
     height: 1px;
 }
 
-/* #experienceHR1 {
-    border: none;
-    width: 50%;
-    background-color: #666666;
-    height: 1px;
-}
-
-#experienceHR2 {
-    border: none;
-    width: 50%;
-    background-color: #666666;
-    height: 1px;
-} */
-
 #aboutMeText {
     margin-left: 15%;
     margin-right: 15%;
@@ -169,6 +155,10 @@ hr {
     background-size: cover;
     width: 75px;
     height: 75px;
+}
+
+.inView {
+    background-color: black;
 }
 
 .MainContainer {
@@ -619,4 +609,22 @@ label:active:after {
 
 #button {
     float: left;
+}
+
+.not-visible {
+    opacity: 0;
+}
+
+.is-visible {
+    -webkit-animation: fadeIn 1000ms forwards; 
+    -moz-animation: fadeIn 1000ms forwards; 
+    -o-animation: fadeIn 1000ms forwards;
+    animation: fadeIn 1000ms forwards;  
+    animation-delay: 250ms;
+}
+
+@keyframes fadeInOnScroll {
+    0% {-webkit-transform: translateY(40px); opacity: 0;} 
+    50% {-webkit-transform: translateY(40px); opacity: 0;}
+    100% {-webkit-transform: translateY(0); opacity: 1;}
 }

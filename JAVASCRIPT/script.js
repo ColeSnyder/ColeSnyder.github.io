@@ -69,9 +69,3 @@ function SeeMoreLess() {
         document.getElementById("MoreLessToggle").innerHTML = "<span>See More</span>"
     }
 }
-
-// function ResumeDarkModeCheck() {
-//     if (darkmode == true) {
-//         document.getElementById("resumeContent").style.backgroundColor = "#303030";
-//     }
-// }
