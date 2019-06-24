@@ -25,6 +25,7 @@ body {
 
 p {
     color: black;
+    font-size: .9em;
 }
 
 footer {
@@ -155,10 +156,6 @@ hr {
     background-size: cover;
     width: 75px;
     height: 75px;
-}
-
-.inView {
-    background-color: black;
 }
 
 .MainContainer {
@@ -355,7 +352,7 @@ span:hover {
 }
 
 .skill {
-    height: 350px;
+    height: 225px;
     width: 100%;
     background-color: #DDDDDD;
     border-radius: 4px;
