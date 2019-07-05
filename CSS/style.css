@@ -33,21 +33,16 @@ footer {
     height: 300px;
     color: white;
     text-align: center;
-    font-size: 40px;
-    padding-top: 5%;
-}
-
-#noMargin {
-    margin: 0;
-}
-
-#resumeFooter {
-    margin-bottom: -75px;
-    height: 235px;
+    padding-top: 3%;
+    padding-bottom: 5%;
 }
 
 h1 {
     width: 100%;
+}
+
+.findme {
+    font-size: 3em;
 }
 
 h3 {
@@ -55,8 +50,7 @@ h3 {
 }
 
 h4 {
-    margin-bottom: 5px;
-    font-size: 1.2em;
+    /* margin-bottom: 5px; */
 }
 
 h6 {
@@ -184,7 +178,6 @@ hr {
 #para4 {
     z-index: 1;
     background-color: white;
-    min-height: 100%;
     display: block;
     padding-bottom: 5%;
 }
