@@ -462,6 +462,9 @@ span:hover {
     #list {
         grid-template-columns: 1fr;
     }
+    img {
+        width: 350px;
+    }
     .extendedListActive {
         grid-template-columns: 1fr;
     }
