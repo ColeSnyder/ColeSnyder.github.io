@@ -3,10 +3,6 @@ body {
     font-family: 'Arimo', sans-serif;
 }
 
-#resumePage {
-    margin: 0;
-} 
-
 #resumeContent {
     background-color: #DDDDDD;
     margin-top: 0;
@@ -49,10 +45,6 @@ h3 {
     margin-bottom: 0px;
 }
 
-h4 {
-    /* margin-bottom: 5px; */
-}
-
 h6 {
     margin-top: 5px;
     font-size: .7em;
@@ -70,14 +62,6 @@ hr {
     width: 50%;
     background-color: #666666;
     height: 1px;
-}
-
-#aboutMeText {
-    margin-left: 15%;
-    margin-right: 15%;
-    font-size: 24px;
-    height: 100px;
-    text-align: center;
 }
 
 #ColeSnyder {
@@ -189,25 +173,22 @@ hr {
     padding: 0;
 }
 
-#html {
-    background-image: url("../PHOTOS/HTML.png");
+.listPic {
     background-size: cover;
     width: 50px;
     height: 50px;
+}
+
+#html {
+    background-image: url("../PHOTOS/HTML.png");
 }
 
 #css {
     background-image: url("../PHOTOS/CSS.png");
-    background-size: cover;
-    width: 50px;
-    height: 50px;
 }
 
 #js {
     background-image: url("../PHOTOS/js.png");
-    background-size: cover;
-    width: 50px;
-    height: 50px;
 }
 
 #node {
@@ -219,51 +200,30 @@ hr {
 
 #react {
     background-image: url("../PHOTOS/reactnative.png");
-    background-size: cover;
-    width: 50px;
-    height: 50px;
 }
 
 #firebase {
     background-image: url("../PHOTOS/firebase.png");
-    background-size: cover;
-    width: 50px;
-    height: 50px;
 }
 
 #photoshop {
     background-image: url("../PHOTOS/adobe.jpg");
-    background-size: cover;
-    width: 50px;
-    height: 50px;
 }
 
 #php {
     background-image: url("../PHOTOS/php.png");
-    background-size: cover;
-    width: 50px;
-    height: 50px;
 }
 
 #sql {
     background-image: url("../PHOTOS/sql.png");
-    background-size: cover;
-    width: 50px;
-    height: 50px;
 }
 
 #powershell {
     background-image: url("../PHOTOS/powershell.png");
-    background-size: cover;
-    width: 50px;
-    height: 50px;
 }
 
 #java {
     background-image: url("../PHOTOS/java.png");
-    background-size: cover;
-    width: 50px;
-    height: 50px;
 }
 
 #headshot {
@@ -297,11 +257,6 @@ hr {
 
 #comp {
     font-size: 5.6em;
-    color: #565656;
-}
-
-#meeting {
-    font-size: 8em;
     color: #565656;
 }
 
@@ -383,18 +338,6 @@ span:hover {
 
 .paraSection {
     padding-top: 1%;
-}
-
-.experienceBox {
-    display: flex;
-    margin: 0;
-    flex-direction: row;
-    border-radius: 4px;
-    padding-bottom: 5%;
-}
-
-#darkModeExperience {
-    margin: 0;
 }
 
 .experienceTitle {
