@@ -38,8 +38,6 @@ function DarkMode() {
         document.getElementById("MoreLessToggle").style.color = "#DDDDDD";
         document.getElementById("darkmodetag").style.color = "#DDDDDD";
         document.getElementById("darkmodetag").innerHTML = "Light Mode";
-        document.getElementById("experienceHR1").style.backgroundColor = "#e0e0e0";
-        document.getElementById("experienceHR2").style.backgroundColor = "#e0e0e0";
         document.getElementById("bubsGit").src = "PHOTOS/githubDarkMode.png";
         document.getElementById("setupGit").src = "PHOTOS/githubDarkMode.png";
         darkmode = true;
@@ -58,8 +56,6 @@ function DarkMode() {
         document.getElementById("MoreLessToggle").style.color = "black";
         document.getElementById("darkmodetag").style.color = "#D9C484";
         document.getElementById("darkmodetag").innerHTML = "Dark Mode";
-        document.getElementById("experienceHR1").style.backgroundColor = "#666666";
-        document.getElementById("experienceHR2").style.backgroundColor = "#666666";
         document.getElementById("bubsGit").src = "PHOTOS/github.png";
         document.getElementById("setupGit").src = "PHOTOS/github.png";
         for (var i = 0; i < lightContentLength; i++) {

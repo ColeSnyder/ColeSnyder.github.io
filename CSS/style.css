@@ -53,14 +53,7 @@ h6 {
 hr {
     border: none;
     width: 50%;
-    background-color: #e0e0e0;
-    height: 1px;
-}
-
-.experienceHRDark {
-    border: none;
-    width: 50%;
-    background-color: #666666;
+    background-color: #d9d9d9;
     height: 1px;
 }
 
