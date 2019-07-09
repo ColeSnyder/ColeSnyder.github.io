@@ -10,6 +10,7 @@ var experienceTextLength = document.getElementsByClassName("experienceText").len
 function DarkMode() {
     if (darkmode == false) {
         document.body.style.color = "#DDDDDD";
+        document.body.style.backgroundColor = "#1a1b1c";
         for (var i = 0; i < h2length; i++) {
             document.getElementsByTagName("h2")[i].style.color = "#2d2d2d";
         }
@@ -44,6 +45,7 @@ function DarkMode() {
         darkmode = true;
     } else {
         document.body.style.color = "#2d2d2d";
+        document.body.style.backgroundColor = "white";
         document.getElementById("para1").style.backgroundColor = "#1a1b1c";
         document.getElementById("para2").style.backgroundColor = "#f2f2f2";
         document.getElementById("para3").style.backgroundColor = "#f2f2f2";
