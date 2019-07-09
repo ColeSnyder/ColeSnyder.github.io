@@ -2,12 +2,28 @@ var darkmode = false;
 var additionalSkills = false;
 
 var h2length = document.getElementsByTagName("h2").length;
+var lightContentLength = document.getElementsByClassName("lightContent").length;
+var titleLength = document.getElementsByClassName("title").length;
+var aboutTitleLength = document.getElementsByClassName("aboutTitle").length;
+var experienceTextLength = document.getElementsByClassName("experienceText").length;
 
 function DarkMode() {
     if (darkmode == false) {
         document.body.style.color = "#DDDDDD";
         for (var i = 0; i < h2length; i++) {
             document.getElementsByTagName("h2")[i].style.color = "#2d2d2d";
+        }
+        for (var i = 0; i < lightContentLength; i++) {
+            document.getElementsByClassName("lightContent")[i].style.color = "#DDDDDD";
+        }
+        for (var i = 0; i < titleLength; i++) {
+            document.getElementsByClassName("title")[i].style.color = "#FFFFFF";
+        }
+        for (var i = 0; i < aboutTitleLength; i++) {
+            document.getElementsByClassName("aboutTitle")[i].style.color = "#EEEEEE";
+        }
+        for (var i = 0; i < experienceTextLength; i++) {
+            document.getElementsByClassName("experienceText")[i].style.color = "#DDDDDD";
         }
         document.getElementById("para1").style.backgroundColor = "#303030";
         document.getElementById("para2").style.backgroundColor = "#262626";
@@ -18,10 +34,6 @@ function DarkMode() {
         document.getElementById("roundAvitar").src = "PHOTOS/AvitarDarkMode.png"
         document.getElementById("pen").style.color = "#DDDDDD";
         document.getElementById("comp").style.color = "#DDDDDD";
-        document.getElementById("experienceText1").style.color = "#DDDDDD";
-        document.getElementById("experienceText2").style.color = "#DDDDDD";
-        document.getElementById("experienceText3").style.color = "#DDDDDD";
-        document.getElementById("experienceText4").style.color = "#DDDDDD";
         document.getElementById("MoreLessToggle").style.color = "#DDDDDD";
         document.getElementById("darkmodetag").style.color = "#DDDDDD";
         document.getElementById("darkmodetag").innerHTML = "Light Mode";
@@ -32,26 +44,34 @@ function DarkMode() {
         darkmode = true;
     } else {
         document.body.style.color = "#2d2d2d";
-        document.getElementById("para1").style.backgroundColor = "#DDDDDD";
-        document.getElementById("para2").style.backgroundColor = "white";
-        document.getElementById("para3").style.backgroundColor = "#DDDDDD";
-        document.getElementById("para4").style.backgroundColor = "white";
-        document.getElementById("FrontEndDeveloper").style.color = "#2d2d2d";
-        document.getElementById("ColeSnyderTitle").style.color = "#2d2d2d";
+        document.getElementById("para1").style.backgroundColor = "#1a1b1c";
+        document.getElementById("para2").style.backgroundColor = "#f2f2f2";
+        document.getElementById("para3").style.backgroundColor = "#f2f2f2";
+        document.getElementById("para4").style.backgroundColor = "#f2f2f2";
+        document.getElementById("ColeSnyderTitle").style.color = "#D9C484";
+        document.getElementById("FrontEndDeveloper").style.color = "#D9C484";
         document.getElementById("roundAvitar").src = "PHOTOS/Avitar.png";
         document.getElementById("pen").style.color = "#565656";
         document.getElementById("comp").style.color = "#565656";
-        document.getElementById("experienceText1").style.color = "black";
-        document.getElementById("experienceText2").style.color = "black";
-        document.getElementById("experienceText3").style.color = "black";
-        document.getElementById("experienceText4").style.color = "black";
         document.getElementById("MoreLessToggle").style.color = "black";
-        document.getElementById("darkmodetag").style.color = "black";
+        document.getElementById("darkmodetag").style.color = "#D9C484";
         document.getElementById("darkmodetag").innerHTML = "Dark Mode";
         document.getElementById("experienceHR1").style.backgroundColor = "#666666";
         document.getElementById("experienceHR2").style.backgroundColor = "#666666";
         document.getElementById("bubsGit").src = "PHOTOS/github.png";
         document.getElementById("setupGit").src = "PHOTOS/github.png";
+        for (var i = 0; i < lightContentLength; i++) {
+            document.getElementsByClassName("lightContent")[i].style.color = "#5A6C73";
+        }
+        for (var i = 0; i < titleLength; i++) {
+            document.getElementsByClassName("title")[i].style.color = "#383D40";
+        }
+        for (var i = 0; i < aboutTitleLength; i++) {
+            document.getElementsByClassName("aboutTitle")[i].style.color = "#5A6C73";
+        }
+        for (var i = 0; i < experienceTextLength; i++) {
+            document.getElementsByClassName("experienceText")[i].style.color = "#5A6C73";
+        }
         darkmode = false;
     }
 }

@@ -20,7 +20,7 @@
 <body>
 
   <div class="MainContainer">
-    <div id="para1" class="paraSection">
+    <div id="para1">
       <div class="container">
         <div id="darkmodebutton" >
           <div id="button"><input type="checkbox" id="switch" onclick="DarkMode();"/>
@@ -51,12 +51,12 @@
               <div id="hobbyHeader">
                   <div id="headshot"></div>
                   <div class="hobbyTitle">
-                      <h3 id="aboutTitle"><strong>COLE</strong></h3>
+                      <h3 class="aboutTitle"><strong>COLE</strong></h3>
                   </div>
               </div>
                 <br><br>
-                <div id="lightContent">
-                  Hello there! My name is Cole Snyder and I am a front end developer from the midwest with an appetite for good design and elegant code. I'm an engaged creator looking to leverage my coding skills. In my freetime I like to draw, cook and take advantage of the midwest environment by swimming, hiking and exercising. My personal philosophy that everyone should have three hobbies: one to keep you <b>creative</b>, one to keep you <b>in shape</b> and one to <b>make you money</b>. Swimming, hiking and weight lifting are my hobbies that keep me in shape, drawing is my hobby for keeping myself creative and programming is my hobby for making myself money. I enjoy all three equally and think it's a great way to stay happy and successful. 
+                <div class="lightContent">
+                  Hello there! My name is Cole Snyder and I am a front end developer from the midwest with an appetite for good design and elegant code. I'm an engaged creator looking to leverage my coding skills. In my freetime I like to draw, cook and take advantage of the midwest environment by swimming, hiking and exercising. My personal philosophy is that everyone should have three hobbies: one to keep you <b>creative</b>, one to keep you <b>in shape</b> and one to <b>make you money</b>. Swimming, hiking and weight lifting are my hobbies that keep me in shape, drawing is my hobby for keeping myself creative and programming is my hobby for making myself money. I enjoy all three equally and think it's a great way to stay happy and successful. 
                 </div>
             </div>
         </div>
@@ -70,11 +70,11 @@
                 <div id="hobbyHeader">
                     <div><i id="comp" class="fas fa-laptop-code"></i></div>
                     <div class="hobbyTitle">
-                        <h3 id="aboutTitle"><strong>PROGRAMMING</strong></h3>
+                        <h3 class="aboutTitle"><strong>PROGRAMMING</strong></h3>
                     </div>
                 </div>
                   <br><br>
-                  <div id="lightContent">
+                  <div class="lightContent">
                     Since 2014 programming has been a hobby of mine. I really enjoy writing code and thinking critically as a way of keeping my mind sharp. I am most spirited about front end development and can't wait to get out there and start creating products for the world to see.
                   </div>
               </div>
@@ -90,11 +90,11 @@
             <div id="hobbyHeader">
                 <div><a href="https://www.youtube.com/channel/UCFnmswuuNwJNZxlirLT5w9w" target="_blank"><i id="pen" class="fas fa-pen-square"></i></a></div>
                 <div class="hobbyTitle">
-                    <h3 id="aboutTitle"><strong>PHOTOREALISM DRAWING</strong></h3>
+                    <h3 class="aboutTitle"><strong>PHOTOREALISM DRAWING</strong></h3>
                 </div>
             </div>
               <br><br>
-              <div id="lightContent">
+              <div class="lightContent">
                 Photorealism drawing is a hobby of mine. I like to draw large portraits of famous people. To make my work unique I record myself drawing the portraits with a tablet and after about 9 hours of drawing it's finished. I would take the finished video and speed it up 64x and add my favorite music to it. The result is the drawings on my YouTube page. I had a great time making them and I hope you enjoy them too! - <a href="https://www.youtube.com/channel/UCFnmswuuNwJNZxlirLT5w9w" target="_blank" id="colesnyderart">ColeSnyderArt</a>
               </div>
           </div>
@@ -117,9 +117,9 @@
                     <div class="experienceContent" class="col">
                       <div class="experienceTitle" class="row-1"><a href="https://www.bubsbrewingco.com/" target="_blank"><span class="link">www.bubsbrewingco.com</span></a> <a href="https://github.com/ColeSnyder/BubsBrewingCompany" target="_blank"><img id="bubsGit" class="hub" src="PHOTOS/github.png"></a></div>
                       <div class="row-11">
-                          <p id="experienceText1" class="experienceClass">A fully functioning static website for a local pub/restaurant located in Winona, Minnesota.</p>
+                          <p class="experienceClass lightContent experienceText">A fully functioning static website for a local pub/restaurant located in Winona, Minnesota.</p>
                           <br>
-                          <p id="experienceText2" class="projectComponents">HTML CSS Bootstrap Javascript</p>
+                          <p class="projectComponents lightContent experienceText">HTML CSS Bootstrap Javascript</p>
                       </div>
                     </div>
                   </div>
@@ -134,9 +134,9 @@
                       <div class="experienceContent" class="col">
                         <div class="experienceTitle" class="row-1"><a href="https://github.com/ColeSnyder/Setup-Script-Confirmation" target="_blank"><span class="link">WSU Windows and Mac Setup Confirmation Page</span></a><a href="https://github.com/ColeSnyder/Setup-Script-Confirmation" target="_blank"><img id="setupGit" class="hub" src="PHOTOS/github.png"></a></div>
                         <div class="row-11">
-                            <p id="experienceText3" class="experienceClass">Confirmation webpage for the Winona State University Mac and PC setup scripts with built in error handling.</p>
+                            <p class="experienceClass lightContent experienceText">Confirmation webpage for the Winona State University Mac and PC setup scripts with built in error handling.</p>
                             <br>
-                            <p id="experienceText4" class="projectComponents">HTML CSS Javascript Powershell5</p>
+                            <p class="projectComponents lightContent experienceText">HTML CSS Javascript Powershell5</p>
                         </div>
                       </div>
                     </div>
@@ -157,7 +157,7 @@
           <div class="skill show-on-scroll not-visible" id="skillHover">
             <div class="skillHeader">
               <div class="listPic" id="html"></div>
-              <h2 class="skillTag">HTML5</h2>
+              <h2>HTML5</h2>
             </div>
             <div class="skillText">
               <p>4+ years of HTML5 experience through personal projects, school work, work experience and freelance projects. HTML is the backbone of web projects so I like to stress clean and digestible code that is organized and structured.</p>
@@ -167,7 +167,7 @@
           <div class="skill show-on-scroll not-visible" id="skillHover">
             <div class="skillHeader">
               <div class="listPic" id="css"></div>
-              <h2 class="skillTag">CSS3</h2>
+              <h2>CSS3</h2>
             </div>
             <div class="skillText">
               <p>Working with CSS for over 4 years to create stunning project designs. I have experience with pre-processors such as <i><b>less</b></i>. Experience with framesworks such as <i><b>Bootstrap</b></i> to streamline design interface components.</p>
@@ -177,7 +177,7 @@
           <div class="skill show-on-scroll not-visible" id="skillHover">
             <div class="skillHeader">
               <div class="listPic" id="js"></div>
-              <h2 class="skillTag">JavaScript es6</h2>
+              <h2>JavaScript es6</h2>
             </div>
             <div class="skillText">
               <p>Over 4 years of experience in JavaScript to create web applications and sites. Frameworks/libraries that I am fluent with include <i><b>JQuery, Ajax, Node.js, React.js, Chart.js</b></i> and <i><b>React Native</b></i>.
@@ -187,7 +187,7 @@
           <div class="skill show-on-scroll not-visible" id="skillHover">
             <div class="skillHeader">
               <div class="listPic" id="node"></div>
-              <h2 class="skillTag">Node.js</h2>
+              <h2>Node.js</h2>
             </div>
             <div class="skillText">
               <p>Experience using Node to set up servers (using <i><b>express.js</b></i>), handling asynchronous data transfer (using <i><b>socket.io</b></i>) and other components commonly used in Node.</p>
@@ -197,7 +197,7 @@
           <div class="skill show-on-scroll not-visible" id="skillHover">
             <div class="skillHeader">
               <div class="listPic" id="react"></div>
-              <h2 class="skillTag">React Native</h2>
+              <h2>React Native</h2>
             </div>
             <div class="skillText">
               <p>React Native experience to create mobile applications that can run on both <i><b>Android</b></i> and <i><b>IOS</b></i> platforms.</p>
@@ -207,7 +207,7 @@
           <div class="skill show-on-scroll not-visible" id="skillHover">
             <div class="skillHeader">
               <div class="listPic" id="firebase"></div>
-              <h2 class="skillTag">Firebase</h2>
+              <h2>Firebase</h2>
             </div>
             <div class="skillText">
               <p>Experience using Firebase as a database tool and as an authentication tool. It has been very useful for small scale projects that I have worked on.</p>
@@ -220,7 +220,7 @@
           <div class="skill show-on-scroll not-visible" id="skillHover">
             <div class="skillHeader">
               <div class="listPic" id="photoshop"></div>
-              <h2 class="skillTag">Adobe</h2>
+              <h2>Adobe</h2>
             </div>
             <div class="skillText">
               <p>Years of involvment utilizing products from the Adobe suite in order to give my projects that little extra pop. Applications used include Adobe Photoshop, Illustrator and After Effects. </p>
@@ -230,7 +230,7 @@
           <div class="skill show-on-scroll not-visible" id="skillHover">
             <div class="skillHeader">
               <div class="listPic" id="php"></div>
-              <h2 class="skillTag">PHP</h2>
+              <h2>PHP</h2>
             </div>
             <div class="skillText">
               <p>PHP has been a useful tool for server side data hanlding. It's a powerful tool that I am very comfortable with. </p>
@@ -240,7 +240,7 @@
           <div class="skill show-on-scroll not-visible" id="skillHover">
             <div class="skillHeader">
               <div class="listPic" id="sql"></div>
-              <h2 class="skillTag">SQL</h2>
+              <h2>SQL</h2>
             </div>
             <div class="skillText">
               <p>MySQL and MySQL workbench are tools that I have used extensively for storing and accessing data. Most of my database experience until now has been with MySQL. </p>
@@ -250,7 +250,7 @@
           <div class="skill show-on-scroll not-visible" id="skillHover">
             <div class="skillHeader">
               <div class="listPic" id="powershell"></div>
-              <h2 class="skillTag">Powershell 5</h2>
+              <h2>Powershell 5</h2>
             </div>
             <div class="skillText">
               <p>Used to create computer setup script for student laptops, distribute software to over 8,000 machines on campus and edit raw HTML pages for real time error hanlding projects.</p>
@@ -260,7 +260,7 @@
           <div class="skill show-on-scroll not-visible" id="skillHover">
             <div class="skillHeader">
               <div class="listPic" id="java"></div>
-              <h2 class="skillTag">Java(Servlet)</h2>
+              <h2>Java(Servlet)</h2>
             </div>
             <div class="skillText">
               <p>Java server pages and servlet are tools that I've implemented in order to use Java in web design projects.</p>
@@ -269,7 +269,7 @@
 
       </div>
 
-      <p id="MoreLessToggle" onclick="SeeMoreLess()"><span>See More</span></p>
+      <p id="MoreLessToggle" class="lightContent" onclick="SeeMoreLess()"><span>See More</span></p>
     </div>
 
 
