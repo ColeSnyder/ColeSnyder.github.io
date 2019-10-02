@@ -158,7 +158,7 @@ hr {
 #para2 {
     background-color: #f2f2f2;
     min-height: 100%;
-    padding-bottom: 5%;
+    /* padding-bottom: 5%; */
 }
 
 #para3 {
