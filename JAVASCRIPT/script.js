@@ -40,6 +40,7 @@ function DarkMode() {
         document.getElementById("darkmodetag").innerHTML = "Light Mode";
         document.getElementById("bubsGit").src = "PHOTOS/githubDarkMode.png";
         document.getElementById("setupGit").src = "PHOTOS/githubDarkMode.png";
+        document.getElementById("boardgameGit").src = "PHOTOS/githubDarkMode.png";
         darkmode = true;
     } else {
         document.body.style.color = "#2d2d2d";
@@ -58,6 +59,7 @@ function DarkMode() {
         document.getElementById("darkmodetag").innerHTML = "Dark Mode";
         document.getElementById("bubsGit").src = "PHOTOS/github.png";
         document.getElementById("setupGit").src = "PHOTOS/github.png";
+        document.getElementById("boardgameGit").src = "PHOTOS/github.png";
         for (var i = 0; i < lightContentLength; i++) {
             document.getElementsByClassName("lightContent")[i].style.color = "#5A6C73";
         }
