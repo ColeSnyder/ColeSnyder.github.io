@@ -34,7 +34,7 @@ function DarkMode() {
         document.getElementById("ColeSnyderTitle").style.color = "#DDDDDD";
         document.getElementById("roundAvitar").src = "PHOTOS/AvitarDarkMode.png"
         document.getElementById("pen").style.color = "#DDDDDD";
-        document.getElementById("comp").style.color = "#DDDDDD";
+        // document.getElementById("comp").style.color = "#DDDDDD";
         document.getElementById("MoreLessToggle").style.color = "#DDDDDD";
         document.getElementById("darkmodetag").style.color = "#DDDDDD";
         document.getElementById("darkmodetag").innerHTML = "Light Mode";
@@ -53,7 +53,7 @@ function DarkMode() {
         document.getElementById("FrontEndDeveloper").style.color = "#D9C484";
         document.getElementById("roundAvitar").src = "PHOTOS/Avitar.png";
         document.getElementById("pen").style.color = "#565656";
-        document.getElementById("comp").style.color = "#565656";
+        // document.getElementById("comp").style.color = "#565656";
         document.getElementById("MoreLessToggle").style.color = "black";
         document.getElementById("darkmodetag").style.color = "#D9C484";
         document.getElementById("darkmodetag").innerHTML = "Dark Mode";
