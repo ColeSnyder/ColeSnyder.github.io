@@ -25,12 +25,15 @@ p {
 }
 
 footer {
+    background-image: url("../PHOTOS/sky.png");
+    background-size: cover;
     background-color: #1a1b1c;
-    height: 300px;
+    min-height: 100%;
+    max-height: 100%;
     color: #D9C484;
-    text-align: center;
     padding-top: 2%;
     padding-bottom: 5%;
+    position: relative;
 }
 
 h1 {
@@ -38,7 +41,8 @@ h1 {
 }
 
 .findme {
-    font-size: 3em;
+    margin-top: 5%;
+    font-size: 4em;
 }
 
 h3 {
@@ -294,6 +298,36 @@ hr {
     justify-content: center;
 }
 
+.footerlink {
+    color: #D9C484;
+    text-decoration: underline;
+}
+
+a {
+    color: #D9C484;
+}
+
+a:hover {
+    color: #D9C499;
+}
+
+.grid {
+    grid-gap: 1em;
+}
+
+#contentBox {
+    padding-left: 10%;
+    padding-right: 25%;
+}
+
+#copyright {
+    position: absolute;
+    bottom: 3%;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
 #list {
     display: grid;
     grid-template-columns: repeat(3, 1fr); 
@@ -383,7 +417,7 @@ span:hover {
 
 .gold {
     color: #D9C484;
-    margin-bottom: 0;
+    /* margin-bottom: 0; */
 }
 
 .hub {
@@ -506,6 +540,12 @@ span:hover {
         -ms-flex-order: 1;
         -webkit-order: 1;
         order: 1;
+      }
+      .findme {
+        font-size: 2.5em;
+    }
+      .findmetext {
+          font-size: 1.5em;
       }
 }
 
