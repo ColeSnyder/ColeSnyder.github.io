@@ -386,6 +386,10 @@ span:hover {
     font-size: 1.5em;
 }
 
+.portfolio {
+    color: #D9C484;
+}
+
 .link {
     color: #bd9d40;
 }
