@@ -150,15 +150,26 @@ hr {
     height: 100vh;
 }
 
+#arrow {
+    float: right;
+    color: #f2f2f2;
+    opacity: 0;
+    -webkit-animation: appear 1000ms forwards; 
+    -moz-animation: appear 1000ms forwards; 
+    -o-animation: appear 1000ms forwards;
+    animation: appear 4s forwards, fadeIn 4s forwards, bounce 4s infinite; 
+    animation-delay: 1.5s;
+}
+
 #para1 {
     background-color: #1a1b1c;
-    min-height: 100%; 
+    min-height: 100%;
+    max-height: 100%; 
 }
 
 #para2 {
     background-color: #f2f2f2;
     min-height: 100%;
-    /* padding-bottom: 5%; */
 }
 
 #para3 {
@@ -409,7 +420,6 @@ span:hover {
     
     #para1 {
         display: flex;
-        /* background-color: #1a1b1c; */
         position: relative;
         min-height: 100%; 
         max-height: 100%;
@@ -507,6 +517,12 @@ span:hover {
 @keyframes appear {
     0% {opacity: 0;}
     100% {opacity: 1;}
+}
+
+@keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);}	
+	40% {-webkit-transform: translateY(-20px);}
+    60% {-webkit-transform: translateY(-15px);}
 }
 
 #darkmodebutton {
