@@ -33,14 +33,14 @@ function DarkMode() {
         document.getElementById("FrontEndDeveloper").style.color = "#DDDDDD";
         document.getElementById("ColeSnyderTitle").style.color = "#DDDDDD";
         document.getElementById("roundAvitar").src = "PHOTOS/AvitarDarkMode.png"
-        // document.getElementById("pen").style.color = "#DDDDDD";
-        // document.getElementById("comp").style.color = "#DDDDDD";
         document.getElementById("MoreLessToggle").style.color = "#DDDDDD";
         document.getElementById("darkmodetag").style.color = "#DDDDDD";
         document.getElementById("darkmodetag").innerHTML = "Light Mode";
         document.getElementById("bubsGit").src = "PHOTOS/githubDarkMode.png";
         document.getElementById("setupGit").src = "PHOTOS/githubDarkMode.png";
         document.getElementById("boardgameGit").src = "PHOTOS/githubDarkMode.png";
+        document.getElementById("colesnyderGit").src = "PHOTOS/githubDarkMode.png";
+        document.getElementById("breathandbodyworkGit").src = "PHOTOS/githubDarkMode.png";
         darkmode = true;
     } else {
         document.body.style.color = "#2d2d2d";
@@ -52,14 +52,14 @@ function DarkMode() {
         document.getElementById("ColeSnyderTitle").style.color = "#D9C484";
         document.getElementById("FrontEndDeveloper").style.color = "#D9C484";
         document.getElementById("roundAvitar").src = "PHOTOS/Avitar.png";
-        // document.getElementById("pen").style.color = "#565656";
-        // document.getElementById("comp").style.color = "#565656";
         document.getElementById("MoreLessToggle").style.color = "black";
         document.getElementById("darkmodetag").style.color = "#D9C484";
         document.getElementById("darkmodetag").innerHTML = "Dark Mode";
         document.getElementById("bubsGit").src = "PHOTOS/github.png";
         document.getElementById("setupGit").src = "PHOTOS/github.png";
         document.getElementById("boardgameGit").src = "PHOTOS/github.png";
+        document.getElementById("colesnyderGit").src = "PHOTOS/github.png";
+        document.getElementById("breathandbodyworkGit").src = "PHOTOS/github.png";
         for (var i = 0; i < lightContentLength; i++) {
             document.getElementsByClassName("lightContent")[i].style.color = "#5A6C73";
         }
