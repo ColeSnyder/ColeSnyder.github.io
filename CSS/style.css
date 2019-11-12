@@ -531,6 +531,9 @@ span:hover {
       .footerlink {
           font-size: .7em;
       }
+      #arrow {
+          bottom: 20%;
+      }
 }
 
 @keyframes fadeIn {
