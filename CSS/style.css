@@ -40,6 +40,10 @@ h1 {
     width: 100%;
 }
 
+h2 {
+    font-size: 1.5em;
+}
+
 .findme {
     margin-top: 5%;
     font-size: 4em;
@@ -170,7 +174,7 @@ hr {
     background-color: #f2f2f2;
     display: block;
     padding-top: 1%;
-    padding-bottom: 5%;
+    padding-bottom: 10%;
 }
 
 #ColeSnyderResume {
@@ -195,6 +199,30 @@ hr {
     background-image: url("../PHOTOS/CSS.png");
 }
 
+#bootstrap {
+    background-image: url("../PHOTOS/bootstrap.svg");
+}
+
+#jquery {
+    background-image: url("../PHOTOS/jquery.png");
+}
+
+#chartjs {
+    background-image: url("../PHOTOS/chartjs.svg");
+}
+
+#tableau {
+    background-image: url("../PHOTOS/tableau.png");
+}
+
+#socket {
+    background-image: url("../PHOTOS/socket.png");
+}
+
+#ts {
+    background-image: url("../PHOTOS/typescript.png");
+}
+
 #js {
     background-image: url("../PHOTOS/js.png");
 }
@@ -210,12 +238,32 @@ hr {
     background-image: url("../PHOTOS/reactnative.png");
 }
 
+#reactjs {
+    background-image: url("../PHOTOS/React.js_logo-512.png");
+}
+
 #firebase {
     background-image: url("../PHOTOS/firebase.png");
 }
 
 #photoshop {
-    background-image: url("../PHOTOS/adobe.jpg");
+    background-image: url("../PHOTOS/photoshop.png");
+}
+
+#illustrator {
+    background-image: url("../PHOTOS/illustrator.png");
+}
+
+#ae {
+    background-image: url("../PHOTOS/ae.png");
+}
+
+#express {
+    background-image: url("../PHOTOS/express.png");
+}
+
+#git {
+    background-image: url("../PHOTOS/git.png");
 }
 
 #php {
@@ -307,9 +355,9 @@ a:hover {
     text-align: center;
 }
 
-#list {
+.list {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); 
+    grid-template-columns: repeat(4, 1fr); 
     grid-gap: 20px;
     padding-left: 10%;
     padding-right: 10%;
@@ -319,7 +367,7 @@ a:hover {
 .extendedListActive {
     margin-top: 5px;
     display: grid;
-    grid-template-columns: repeat(3, 1fr); 
+    grid-template-columns: repeat(4, 1fr); 
     grid-gap: 20px;
     padding-left: 10%;
     padding-right: 10%;
@@ -340,7 +388,7 @@ span:hover {
 }
 
 .skill {
-    height: 225px;
+    height: 50px;
     width: 100%;
     background-color: #DDDDDD;
     border-radius: 4px;
@@ -416,8 +464,8 @@ span:hover {
 }
 
 @media only screen and (max-width: 1060px) {
-    #list {
-        grid-template-columns: 1fr 1fr;
+    .list {
+        grid-template-columns: 1fr 1fr 1fr;
     }
     .extendedListActive {
         grid-template-columns: 1fr 1fr;
@@ -455,10 +503,19 @@ span:hover {
     }
 }
 
-@media only screen and (max-width: 700px) {
-    #list {
-        grid-template-columns: 1fr;
+@media only screen and (max-width: 500px) {
+    .list {
+        grid-template-columns:1fr;
     }
+}
+
+@media only screen and (max-width: 800px) {
+    .list {
+        grid-template-columns:1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 700px) {
     img {
         width: 350px;
     }
