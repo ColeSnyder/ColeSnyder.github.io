@@ -33,7 +33,7 @@ function DarkMode() {
         document.getElementById("FrontEndDeveloper").style.color = "#DDDDDD";
         document.getElementById("ColeSnyderTitle").style.color = "#DDDDDD";
         document.getElementById("roundAvitar").src = "PHOTOS/AvitarDarkMode.png"
-        document.getElementById("MoreLessToggle").style.color = "#DDDDDD";
+        // document.getElementById("MoreLessToggle").style.color = "#DDDDDD";
         document.getElementById("darkmodetag").style.color = "#DDDDDD";
         document.getElementById("darkmodetag").innerHTML = "Light Mode";
         document.getElementById("bubsGit").src = "PHOTOS/githubDarkMode.png";
@@ -52,7 +52,7 @@ function DarkMode() {
         document.getElementById("ColeSnyderTitle").style.color = "#D9C484";
         document.getElementById("FrontEndDeveloper").style.color = "#D9C484";
         document.getElementById("roundAvitar").src = "PHOTOS/Avitar.png";
-        document.getElementById("MoreLessToggle").style.color = "black";
+        // document.getElementById("MoreLessToggle").style.color = "black";
         document.getElementById("darkmodetag").style.color = "#D9C484";
         document.getElementById("darkmodetag").innerHTML = "Dark Mode";
         document.getElementById("bubsGit").src = "PHOTOS/github.png";
