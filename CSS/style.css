@@ -509,7 +509,7 @@ span:hover {
     }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (min-width: 501px) and (max-width: 800px) {
     .list {
         grid-template-columns:1fr 1fr;
     }
