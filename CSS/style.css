@@ -503,9 +503,9 @@ span:hover {
     }
 }
 
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 500px) {
     .list {
-        grid-template-columns: 1fr;
+        grid-template-columns:1fr;
     }
 }
 
