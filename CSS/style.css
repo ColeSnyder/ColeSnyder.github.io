@@ -203,13 +203,17 @@ hr {
     background-image: url("../PHOTOS/bootstrap.svg");
 }
 
+#bulma {
+    background-image: url("../PHOTOS/bulma.png");
+}
+
 #jquery {
     background-image: url("../PHOTOS/jquery.png");
 }
 
-#chartjs {
+/* #chartjs {
     background-image: url("../PHOTOS/chartjs.svg");
-}
+} */
 
 #tableau {
     background-image: url("../PHOTOS/tableau.png");
@@ -234,12 +238,16 @@ hr {
     height: 50px;
 }
 
-#react {
+/* #react {
     background-image: url("../PHOTOS/reactnative.png");
-}
+} */
 
 #reactjs {
     background-image: url("../PHOTOS/React.js_logo-512.png");
+}
+
+#angularjs {
+    background-image: url("../PHOTOS/angular.png");
 }
 
 #firebase {
@@ -274,13 +282,13 @@ hr {
     background-image: url("../PHOTOS/sql.png");
 }
 
-#powershell {
+/* #powershell {
     background-image: url("../PHOTOS/powershell.png");
-}
+} */
 
-#java {
+/* #java {
     background-image: url("../PHOTOS/java.png");
-}
+} */
 
 #headshot {
     background-image: url("../PHOTOS/profile.jpg");
