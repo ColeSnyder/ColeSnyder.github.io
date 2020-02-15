@@ -238,6 +238,13 @@ hr {
     height: 50px;
 }
 
+#mongo {
+    background-image: url("../PHOTOS/mongo.png");
+    background-size: 100% 100%;
+    width: 50px;
+    height: 50px;
+}
+
 /* #react {
     background-image: url("../PHOTOS/reactnative.png");
 } */
