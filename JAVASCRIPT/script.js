@@ -38,6 +38,7 @@ function DarkMode() {
         document.getElementById("darkmodetag").innerHTML = "Light Mode";
         document.getElementById("bubsGit").src = "PHOTOS/githubDarkMode.png";
         document.getElementById("setupGit").src = "PHOTOS/githubDarkMode.png";
+        document.getElementById("warehouseGit").src = "PHOTOS/githubDarkMode.png";
         document.getElementById("boardgameGit").src = "PHOTOS/githubDarkMode.png";
         document.getElementById("colesnyderGit").src = "PHOTOS/githubDarkMode.png";
         document.getElementById("breathandbodyworkGit").src = "PHOTOS/githubDarkMode.png";
@@ -57,6 +58,7 @@ function DarkMode() {
         document.getElementById("darkmodetag").innerHTML = "Dark Mode";
         document.getElementById("bubsGit").src = "PHOTOS/github.png";
         document.getElementById("setupGit").src = "PHOTOS/github.png";
+        document.getElementById("warehouseGit").src = "PHOTOS/github.png";
         document.getElementById("boardgameGit").src = "PHOTOS/github.png";
         document.getElementById("colesnyderGit").src = "PHOTOS/github.png";
         document.getElementById("breathandbodyworkGit").src = "PHOTOS/github.png";
