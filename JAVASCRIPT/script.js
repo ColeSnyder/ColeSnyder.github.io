@@ -78,19 +78,19 @@ function DarkMode() {
     }
 }
 
-function SeeMoreLess() {
-    if(additionalSkills == false) {
-        document.getElementById("MoreLessContent").classList.remove("extendedListOption");
-        document.getElementById("MoreLessContent").classList.add("extendedListActive");
-        document.getElementById("MoreLessToggle").innerHTML = "<span>See Less</span>"
-        additionalSkills = true;
-    } else {
-        document.getElementById("MoreLessContent").classList.remove("extendedListActive");
-        document.getElementById("MoreLessContent").classList.add("extendedListOption");
-        additionalSkills = false;
-        document.getElementById("MoreLessToggle").innerHTML = "<span>See More</span>"
-    }
-}
+// function SeeMoreLess() {
+//     if(additionalSkills == false) {
+//         document.getElementById("MoreLessContent").classList.remove("extendedListOption");
+//         document.getElementById("MoreLessContent").classList.add("extendedListActive");
+//         document.getElementById("MoreLessToggle").innerHTML = "<span>See Less</span>"
+//         additionalSkills = true;
+//     } else {
+//         document.getElementById("MoreLessContent").classList.remove("extendedListActive");
+//         document.getElementById("MoreLessContent").classList.add("extendedListOption");
+//         additionalSkills = false;
+//         document.getElementById("MoreLessToggle").innerHTML = "<span>See More</span>"
+//     }
+// }
 
 window.onload = function() {
     var isShirt = false;
@@ -100,24 +100,12 @@ window.onload = function() {
 
         if (isShirt) {
             document.getElementById("spaceApps").src = "./PHOTOS/spaceapps.png";
-            // document.getElementById("spaceApps").style.inlineSize = "100%";
             isShirt = false;
         } else {
             document.getElementById("spaceApps").src = "./PHOTOS/rocketSize.png";
-            // document.getElementById("spaceApps").style.inlineSize = "44%";
             isShirt = true;
         }
         
-        timerId = setTimeout(time, 3000); // (*)
+        timerId = setTimeout(time, 3000); 
       }, 3000);
 }
-
-// function ChangeSpaceApps() {
-//     var img1 = document.getElementById("spaceApps");
-
-//     let timerId = setTimeout(function tick() {
-//         alert('tick');
-//         timerId = setTimeout(tick, 2000); // (*)
-//       }, 2000);
-
-// }

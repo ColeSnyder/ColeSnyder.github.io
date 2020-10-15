@@ -136,6 +136,7 @@ hr {
 .MainContainer {
     perspective: 1px;
     height: 100vh;
+    background-color: #d6d6d6;
 }
 
 #arrow {
@@ -156,6 +157,7 @@ hr {
     background-color: #1a1b1c;
     min-height: 100%;
     max-height: 100%; 
+    margin-left: -1%;
 }
 
 #para2 {
@@ -191,14 +193,6 @@ hr {
     height: 50px;
 }
 
-#html {
-    background-image: url("../PHOTOS/HTML.png");
-}
-
-#css {
-    background-image: url("../PHOTOS/CSS.png");
-}
-
 #bootstrap {
     background-image: url("../PHOTOS/bootstrap.svg");
 }
@@ -207,32 +201,30 @@ hr {
     background-image: url("../PHOTOS/bulma.png");
 }
 
-#jquery {
-    background-image: url("../PHOTOS/jquery.png");
-}
-
-/* #chartjs {
-    background-image: url("../PHOTOS/chartjs.svg");
-} */
-
 #tableau {
     background-image: url("../PHOTOS/tableau.png");
-}
-
-#socket {
-    background-image: url("../PHOTOS/socket.png");
 }
 
 #ts {
     background-image: url("../PHOTOS/typescript.png");
 }
 
-#js {
-    background-image: url("../PHOTOS/js.png");
-}
-
 #node {
     background-image: url("../PHOTOS/node.png");
+    background-size: 100% 100%;
+    width: 50px;
+    height: 50px;
+}
+
+#csharp {
+    background-image: url("../PHOTOS/csharp.svg");
+    background-size: 100% 100%;
+    width: 50px;
+    height: 50px;
+}
+
+#netcore {
+    background-image: url("../PHOTOS/netcore.png");
     background-size: 100% 100%;
     width: 50px;
     height: 50px;
@@ -244,10 +236,6 @@ hr {
     width: 50px;
     height: 50px;
 }
-
-/* #react {
-    background-image: url("../PHOTOS/reactnative.png");
-} */
 
 #reactjs {
     background-image: url("../PHOTOS/React.js_logo-512.png");
@@ -277,25 +265,9 @@ hr {
     background-image: url("../PHOTOS/express.png");
 }
 
-#git {
-    background-image: url("../PHOTOS/git.png");
-}
-
-#php {
-    background-image: url("../PHOTOS/php.png");
-}
-
 #sql {
-    background-image: url("../PHOTOS/sql.png");
+    background-image: url("../PHOTOS/pl-sql.png");
 }
-
-/* #powershell {
-    background-image: url("../PHOTOS/powershell.png");
-} */
-
-/* #java {
-    background-image: url("../PHOTOS/java.png");
-} */
 
 #headshot {
     background-image: url("../PHOTOS/profile.jpg");
@@ -472,7 +444,6 @@ span:hover {
 
 .gold {
     color: #D9C484;
-    /* margin-bottom: 0; */
 }
 
 .hub {
@@ -702,10 +673,10 @@ label:active:after {
 }
 
 .is-visible {
-    -webkit-animation: fadeIn 1000ms forwards; 
-    -moz-animation: fadeIn 1000ms forwards; 
-    -o-animation: fadeIn 1000ms forwards;
-    animation: fadeIn 1000ms forwards;  
+    -webkit-animation: fadeIn 750ms forwards; 
+    -moz-animation: fadeIn 750ms forwards; 
+    -o-animation: fadeIn 750ms forwards;
+    animation: fadeIn 750ms forwards;  
     animation-delay: 250ms;
 }
 
