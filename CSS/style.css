@@ -197,14 +197,6 @@ hr {
     background-image: url("../PHOTOS/bootstrap.svg");
 }
 
-#bulma {
-    background-image: url("../PHOTOS/bulma.png");
-}
-
-#tableau {
-    background-image: url("../PHOTOS/tableau.png");
-}
-
 #ts {
     background-image: url("../PHOTOS/typescript.png");
 }
@@ -230,13 +222,6 @@ hr {
     height: 50px;
 }
 
-#mongo {
-    background-image: url("../PHOTOS/mongo.png");
-    background-size: 100% 100%;
-    width: 50px;
-    height: 50px;
-}
-
 #reactjs {
     background-image: url("../PHOTOS/React.js_logo-512.png");
 }
@@ -245,8 +230,16 @@ hr {
     background-image: url("../PHOTOS/angular.png");
 }
 
-#firebase {
-    background-image: url("../PHOTOS/firebase.png");
+#azure {
+    background-image: url("../PHOTOS/azure.jpg");
+}
+
+#oraclesql {
+    background-image: url("../PHOTOS/oraclesql.png");
+}
+
+#sqlserver {
+    background-image: url("../PHOTOS/sqlserver.png");
 }
 
 #photoshop {

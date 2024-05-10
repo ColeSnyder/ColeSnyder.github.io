@@ -41,7 +41,6 @@ function DarkMode() {
         document.getElementById("warehouseGit").src = "PHOTOS/githubDarkMode.png";
         document.getElementById("boardgameGit").src = "PHOTOS/githubDarkMode.png";
         document.getElementById("colesnyderGit").src = "PHOTOS/githubDarkMode.png";
-        document.getElementById("breathandbodyworkGit").src = "PHOTOS/githubDarkMode.png";
         darkmode = true;
     } else {
         document.body.style.color = "#2d2d2d";
@@ -61,7 +60,6 @@ function DarkMode() {
         document.getElementById("warehouseGit").src = "PHOTOS/github.png";
         document.getElementById("boardgameGit").src = "PHOTOS/github.png";
         document.getElementById("colesnyderGit").src = "PHOTOS/github.png";
-        document.getElementById("breathandbodyworkGit").src = "PHOTOS/github.png";
         for (var i = 0; i < lightContentLength; i++) {
             document.getElementsByClassName("lightContent")[i].style.color = "#5A6C73";
         }
